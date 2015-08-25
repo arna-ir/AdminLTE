@@ -4,7 +4,9 @@
   "main": [
     "less/AdminLTE-RTL.less"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "bi-app-less": "*"
+  },
   "moduleType": [
     "amd",
     "globals",
@@ -22,7 +24,6 @@
     "tests"
   ],
   "dependencies": {
-    "bi-app-less": "*",
-    "less": "~2.5.1"
+
   }
 }
