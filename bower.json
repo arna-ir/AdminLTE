@@ -1,0 +1,28 @@
+{
+  "name": "AdminLTE-RTL",
+  "description": "We are trying to make a RTL version of AdminLTE ",
+  "main": [
+    "less/AdminLTE-RTL.less"
+  ],
+  "devDependencies": {},
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "authors": [
+    "Behnam Salarinia <act1gmr@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bi-app-less": "*",
+    "less": "~2.5.1"
+  }
+}

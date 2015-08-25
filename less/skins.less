@@ -51,7 +51,7 @@
             }
         }
         > a {
-            margin-right: 1px;
+            .margin-right(1px);
         }
         //Hover and active states
         > a:hover, &.active > a {
@@ -68,9 +68,9 @@
     // Sidebar color (Both .wrapper and .left-side are responsible for sidebar bg color) 
     .left-side {
         background: @sidebar-light-bg;
-        -webkit-box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.1);
-        -moz-box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.1);
-        box-shadow: inset -3px 0px 8px -4px rgba(0, 0, 0, 0.07);
+        -webkit-box-shadow: inset -3px 0 8px -4px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: inset -3px 0 8px -4px rgba(0, 0, 0, 0.1);
+        box-shadow: inset -3px 0 8px -4px rgba(0, 0, 0, 0.07);
     }
 
     .sidebar a {
@@ -92,7 +92,7 @@
     .sidebar-form {
         .border-radius(2px);
         border: 1px solid @sidebar-light-border;
-        margin: 10px 10px;
+        margin: 10px;
         input[type="text"], .btn {
             box-shadow: none;
             background-color: #fafafa;
@@ -108,7 +108,7 @@
                 color: #666;
             }
             &:focus + .input-group-btn .btn {
-                border-left-color: #fff;
+                .border-left-color(#fff);
             }
         }
         .btn {
@@ -166,7 +166,7 @@
             }
         }
         > a {
-            margin-right: 1px;
+            .margin-right(1px);
         }
         //Hover and active states
         > a:hover, &.active > a {
@@ -203,8 +203,8 @@
 
     .sidebar-form {
         .border-radius(2px);
-        border: 0px solid #555;
-        margin: 10px 10px;
+        border: 0 solid #555;
+        margin: 10px;
         input[type="text"], .btn {
             box-shadow: none;
             background-color: rgba(255,255,255, 0.1);   
@@ -220,13 +220,13 @@
                 border: 0;
             }
             &:focus + .input-group-btn .btn {
-                border-left: 0;
+                .border-left(0);
             }
         }
         .btn {
             color: #999;
             .border-radius(0, 2px, 0, 2px)!important;
-            border-left: 0;
+            .border-left(0);
         }
     }
 }

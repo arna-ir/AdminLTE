@@ -99,8 +99,8 @@
     // Application buttons 
     &.btn-app {
         position: relative;
-        padding: 15px 5px;
-        margin: 0 0 10px 10px;
+        .padding(15px,5px,15px,5px);
+        .margin(0,0,10px,10px);
         min-width: 80px;
         height: 60px;
         -webkit-box-shadow: none;
@@ -153,7 +153,7 @@
             width: 40px;
         }
         > .fa + span {
-            border-left: 1px solid rgba(255, 255,255, 0.3);            
+            .border-left(1px solid rgba(255, 255,255, 0.3));
         }
         span {
             padding: 10px;

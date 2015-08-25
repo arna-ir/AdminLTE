@@ -1,0 +1,24 @@
+{
+  "name": "admin-lte-rtl",
+  "version": "1.0.0",
+  "description": "We are trying to make a RTL version of AdminLTE ",
+  "main": "\\",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACT1GMR/AdminLTE-bi-directional.git"
+  },
+  "author": "Behnam Salarinia <act1gmr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACT1GMR/AdminLTE-bi-directional/issues"
+  },
+  "homepage": "https://github.com/ACT1GMR/AdminLTE-bi-directional#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1"
+  }
+}

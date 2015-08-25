@@ -33,24 +33,24 @@
 
 .btn-social {
   position: relative;
-  padding-left: @bs-height-base + @padding-base-horizontal!important;
-  text-align: left;
+  .padding-left(@bs-height-base + @padding-base-horizontal)!important;
+  .text-align(left);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   :first-child {
     position: absolute;
-    left: 0;
+    .left(0);
     top: 0;
     bottom: 0;
     width: @bs-height-base!important;
     line-height: (@bs-height-base + 2)!important;
     font-size: 1.6em!important;
     text-align: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    .border-right(1px solid rgba(0, 0, 0, 0.2));
   }
   &.btn-lg {
-    padding-left: @bs-height-lg + @padding-large-horizontal!important;
+    .padding-left(@bs-height-lg + @padding-large-horizontal)!important;
     :first-child {
       line-height: @bs-height-lg;
       width: @bs-height-lg;
@@ -58,7 +58,7 @@
     }
   }
   &.btn-sm {
-    padding-left: @bs-height-sm + @padding-small-horizontal!important;
+    .padding-left(@bs-height-sm + @padding-small-horizontal)!important;
     :first-child {
       line-height: @bs-height-sm;
       width: @bs-height-sm;
@@ -66,7 +66,7 @@
     }
   }
   &.btn-xs {
-    padding-left: @bs-height-xs + @padding-small-horizontal!important;
+    .padding-left(@bs-height-xs + @padding-small-horizontal)!important;
     :first-child {
       line-height: @bs-height-xs;
       width: @bs-height-xs;

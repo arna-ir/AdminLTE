@@ -5,9 +5,8 @@
 .mailbox {
 
     .table-mailbox {
-        border-left: 1px solid #ddd;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;        
+        border: 1px solid #ddd;
+        border-top: medium none;
         tr {
             &.unread {
                  > td {                    
@@ -48,7 +47,7 @@
     @media screen and (max-width: @screen-sm) {
         .nav-stacked {
             > li:not(.header) {
-                float: left;
+                .float(left);
                 width: 50%;
                 &.header {
                     border: 0!important;
