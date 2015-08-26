@@ -1,6 +1,7 @@
 {
   "name": "AdminLTE-RTL",
   "description": "We are trying to make a bi directional version of AdminLTE ",
+  "version": "v1.3bi0",
   "main": [
     "less/AdminLTE-RTL.less",
     "less/AdminLTE-LTR.less"
