@@ -26,5 +26,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['less', 'watch']);
+    grunt.registerTask('default', 'serve');
+
+    grunt.registerTask('serve', ['less', 'watch']);
 };

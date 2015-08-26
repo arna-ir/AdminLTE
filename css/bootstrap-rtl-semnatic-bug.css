@@ -1,0 +1,22 @@
+/* bootstrap none semantic classes!! */
+
+.pull-right{
+    float: left !important;
+}
+
+.pull-left{
+    float: right !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: left !important;
+        margin-left: -15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-left {
+        float: right !important;
+    }
+}

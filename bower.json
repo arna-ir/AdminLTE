@@ -1,8 +1,9 @@
 {
   "name": "AdminLTE-RTL",
-  "description": "We are trying to make a RTL version of AdminLTE ",
+  "description": "We are trying to make a bi directional version of AdminLTE ",
   "main": [
-    "less/AdminLTE-RTL.less"
+    "less/AdminLTE-RTL.less",
+    "less/AdminLTE-LTR.less"
   ],
   "devDependencies": {
     "bi-app-less": "*"
@@ -13,6 +14,8 @@
     "node"
   ],
   "authors": [
+    "arna co <info@arna.ir>",
+    "Sajjad Beriaghdar <smbeiragh@gmail.com>",
     "Behnam Salarinia <act1gmr@gmail.com>"
   ],
   "license": "MIT",
