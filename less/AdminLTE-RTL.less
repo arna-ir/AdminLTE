@@ -1,2 +1,28 @@
 @import '../bower_components/bi-app-less/bi-app/bi-app-rtl';
 @import 'AdminLTE';
+
+.sidebar {
+  .sidebar-menu {
+    > li {
+      > a {
+        > .fa, > .glyphicon, > .ion {
+          &.fa-angle-left:before{
+            content: "\f105";
+          }
+        }
+      }
+    }
+    // Tree view menu
+    .treeview-menu {
+      > li {
+        > a {
+          > .fa, > .glyphicon, > .ion {
+            &.fa-angle-double-right::before{
+              content: "\f100";
+            }
+          }
+        }
+      }
+    }
+  }
+}
