@@ -1,5 +1,5 @@
 {
-  "name": "Admin-lte-bi",
+  "name": "AdminLTE-bi",
   "description": "We are trying to make a bi directional version of AdminLTE ",
   "main": [
     "less/AdminLTE-RTL.less",
